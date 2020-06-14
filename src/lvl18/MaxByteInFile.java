@@ -26,9 +26,9 @@ public class MaxByteInFile {
             }
         }
         fileInputStream.close();
-        Map<Integer, Integer> mapOfMax = findMax(map);
+        Map<Integer, Integer> mapOfMax = findMax(map);       //Создание второй мапы с максимальными значениями повторений
         for (Map.Entry<Integer, Integer> pair : mapOfMax.entrySet()) {
-            System.out.print(pair.getKey() + " ");
+            System.out.print( "Результат: " + pair.getKey() + " ");
         }
 
     }
