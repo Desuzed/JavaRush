@@ -9,7 +9,8 @@ public class LeftBracketDecorator implements PrintInterface {
 
     @Override
     public void print() {
-        System.out.print("[");
+
         component.print();
+        System.out.print("[");
     }
 }
