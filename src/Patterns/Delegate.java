@@ -1,4 +1,4 @@
-package lvl17;
+package Patterns;
 
 public class Delegate {
     public static void main(String[] args) {
