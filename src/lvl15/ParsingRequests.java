@@ -17,7 +17,7 @@ public class ParsingRequests {
             String parameters = s.substring((s.indexOf("?") + 1));
             System.out.println(parameters);
             ArrayList<String> list = new ArrayList<>();
-            splitList(list, parameters);                //Разделяем строку по знакам "?"
+            splitList(list, parameters);                //Разделяем строку по знакам "&"
             substringList(list);                        //Отсекаем всё, что находится после знака "="
             System.out.print("Содержатся параметры: ");
             for (int i = 0; i < list.size(); i++) {     //Вывод параметров
