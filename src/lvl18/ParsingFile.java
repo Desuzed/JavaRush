@@ -16,7 +16,7 @@ public class ParsingFile {
         String str;
         ArrayList<String> listOfStrings = null;
         while ((str = reader.readLine()) != null) {
-            if (str.startsWith(args[0])) {              //id, который передан первым параметром
+            if (str.startsWith(args[0])) {              //i*d, который передан первым параметром
                 listOfStrings = splitList(str);
             }
         }

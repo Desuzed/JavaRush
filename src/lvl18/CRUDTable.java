@@ -9,6 +9,8 @@ public class CRUDTable {
     /*19846   Шорты пляжные синие           159.00  12
       198478  Шорты пляжные черные с рисунко173.00  17
       19847983Куртка для сноубордистов, разм10173.991234*/
+
+    //TODO Совместить две программы в одну
     public static void main(String[] args) throws Exception {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String fileName = reader.readLine();
